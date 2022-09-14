@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/f36a9c9e2b.js" crossorigin="anonymous"></script>
     <title>Peer Chat</title>
 </head>
 <body>
@@ -14,9 +15,23 @@
         <video class="video-player" id="user-2" autoplay playsinline></video>
     </div>
 
+    <div id="controls">
+       
+        <div class="control-container" id="camera-btn">
+            <img src="/images/zoom.png" alt="">
+        </div>
+        <div class="control-container" id="mic-btn">
+            <img src="images/mic.png" alt="">
+        </div>
+        <div class="control-container" id="leave-btn">
+           <img src="images/logout.png" alt="">
+        </div>
+
+    </div> 
  
     
 </body>
+
 <script src="agora-rtm-sdk-1.5.1.js"></script>
 <script src="main.js"></script>
 </html>
